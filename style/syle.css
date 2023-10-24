@@ -1,0 +1,184 @@
+:root{
+    --Midnight-Green: #014E56;
+    --Coral: #F67E7E;
+    --Rapture-Blue: #79C8C7;
+    --Police-Blue: #2C6269;
+    --Jungle-Green: #004047;
+    --State-Green: #012F34;
+    --Dark-Green: #002529;
+}
+.w-100{
+    width: 100%;
+}
+body{
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Livvic', sans-serif;
+}
+.h1-large{
+    font-size: 6.25rem;
+    line-height: 1;
+}
+.h1-small{
+    font-size: 4rem;
+    line-height: 3.5rem;
+}
+.h2{
+    font-size: 3rem;
+    line-height: 1rem;  
+}
+.h3,
+.body-1 {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+.body-2 {
+    font-size: 0.938rem;
+    line-height: 1.563rem; 
+}
+.container{
+    max-width: 1119px;
+    margin: 0 auto;
+}
+/*utility classes*/
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.flex-col {
+    flex-direction: column;
+}
+/*gap*/
+.g-20{
+    gap: 5rem;
+}
+.g-10{
+    gap: 2.5rem;
+}
+.g-7-2{
+    gap: 1.875rem;
+}
+.g-1-5{
+    gap: 30px;
+}
+.topp{
+    top: 64px;
+}
+.top{
+    padding-top: 140px;
+    align-items: center;
+    text-align: center;
+}
+/*margin-bottom*/
+
+/*color*/
+.text-white{
+    color: #fff;
+}
+/*components*/
+.btn-link{
+    border-radius: 1.5rem;
+    border: 2px solid currentColor;
+    padding: 9px 33px 11px 32px;
+}
+.line{
+    width: 50px;
+    height: 4px;
+    background: var(--Rapture-Blue);
+    margin-bottom: 40px;
+}
+#top{
+    background: var(--Midnight-Green);
+    padding-top: 4.813rem;
+    padding-bottom: 176px;
+}
+/*hero*/
+.hero{
+    margin-top: 131px;
+    padding-bottom: 176px;
+    background: url("../img/stiker.png")no-repeat bottom right ; 
+    
+    
+}
+.hero h1 {
+    width: 350px;
+}
+.hero p {
+    width: 730px;
+    height: 112px;
+}
+.medium{
+    background:url(../stiker22.png) no-repeat top left, 
+    var(--Jungle-Green);
+    margin: 0 auto;
+    
+}
+h2{
+    width: 920px;
+    color: #FFF;
+    align-items: center;
+    text-align: center;
+    font-family: 'Livvic', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    padding: 140px 0px 0px 0px;
+}
+.logoo{
+    background: #012F34;
+    width: 350px;
+height: 253px;
+flex-shrink: 0;
+}
+.bb{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.logoooooo{
+    padding-top: 150px;
+    padding-bottom: 168px;
+
+}
+.logo1{
+    padding-bottom: 168px;
+}
+.mediaa{
+    background: url(../stiker4.png) no-repeat bottom right;
+}
+.fot{
+   background-color: #012F34;
+   /*background: url(../stiker3.png)no-repeat top left;*/
+}
+.fot1{
+    background: url(../stiker3.png)no-repeat top left; 
+}
+.fot2{
+    width: 1110px;
+height: 45px;
+flex-shrink: 0;
+padding: 64px 0px 140px 0px;
+}
+
+.fot3{
+    background-color: #F67E7E;
+}
+.fot4{
+font-size: 48px;
+padding: 76px 355px 75px 0px;
+    
+}
+footer{
+    background-color:  #012F34;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
